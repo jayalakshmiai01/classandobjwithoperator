@@ -1,11 +1,19 @@
 #include <iostream>
 
 using namespace std;
+<<<<<<< HEAD
 class parentbird
 {
 private:
     string color;
 int weight;
+=======
+class birds
+{
+private:
+    string color;
+string weight;
+>>>>>>> 4cb537b92fd82aa2d40d9311cf1db3ed3552318a
 public:
     void eat()
     {
@@ -29,7 +37,11 @@ public:
 
     void setcolor()
     {
+<<<<<<< HEAD
         cout << "setcolor is:" ;
+=======
+        cout << "setcolor is:" << endl;
+>>>>>>> 4cb537b92fd82aa2d40d9311cf1db3ed3552318a
         cin >> color;
     }
     string getcolor()
@@ -38,7 +50,11 @@ public:
     }
     void setweight()
     {
+<<<<<<< HEAD
         cout << "setweight is :" << endl;
+=======
+        cout << "setweight is" << endl;
+>>>>>>> 4cb537b92fd82aa2d40d9311cf1db3ed3552318a
         cin >> weight;
     }
     int getweight()
@@ -46,6 +62,7 @@ public:
         return weight;
     }
 };
+<<<<<<< HEAD
     class childbird : public parentbird{
 
         public:
@@ -125,5 +142,31 @@ p.eat();
 p.birdsound();
     cout << "color is:" << p.getcolor() << endl;
     cout << "weight is:" << p.getweight() << endl;
+=======
+    class dog : public birds{
+    };
+
+int main()
+{
+   /* birds bs;
+    bs.eat();
+    cout << bs.birdname() << endl;
+    //cout << bs.mycolor() << endl;
+    cout << bs.myweight() << endl;
+    bs.myweight1();
+    bs.setcolor();
+    cout << "color is:" << bs.getcolor() << endl;
+
+    if(bs.myweight()==25)
+    {
+    cout << "return type is equal to 25" << endl;
+    }*/
+dog dg;
+dg.eat;
+dg.setcolor();
+    cout << "color is:" << dg.getcolor() << endl;
+dg.getweight();
+    cout << "weight is:" << dg.getweight() << endl;
+>>>>>>> 4cb537b92fd82aa2d40d9311cf1db3ed3552318a
     return 0;
 }
