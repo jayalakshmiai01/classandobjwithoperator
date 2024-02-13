@@ -17,6 +17,7 @@ class parent():
 #sub class
 class child(parent):
     def __init__(self):
+        
         super().__init__()
         super().AadharAccess()
         super().classRoom()
