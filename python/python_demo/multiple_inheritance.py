@@ -15,6 +15,8 @@ class parent():
     def cadbatch(self):
         print("you can join cadbatch course")
 class aibatch():
+    def __init_(self):
+        print("welcome to aibatch")
     def c(self):
         print("i study c")
     def cpp(self):
@@ -23,6 +25,8 @@ class aibatch():
         print("i study python")
 class cadbatch(parent,aibatch):
     def __init__(self):
+        print("welcome to cadbatch")
+        super().__init__()
         super().__init__()
         super().AadharAccess()
         super().classRoom()

@@ -13,15 +13,16 @@ class email():
         print("you can login gmail")
     def compose(self):
         print("you can compose and sent mail")
-    def print("")
-class 
+    def inbox(self):
+        print("you can reciving the mail")
+class browser(google,email):
     def __init__(self):
         super().__init__()
         super().google_account()
         super().search_bar()
+        super().software()
+        super().login()
+        super().compose()
+        super().inbox()
 
-e=email()
-e.google_account()
-e.search_bar()
-e.login()
-e.compose()
+b=browser()
