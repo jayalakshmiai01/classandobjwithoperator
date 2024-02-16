@@ -27,7 +27,6 @@ class cadbatch(parent,aibatch):
     def __init__(self):
         print("welcome to cadbatch")
         super().__init__()
-        super().__init__()
         super().AadharAccess()
         super().classRoom()
         super().lab1()
