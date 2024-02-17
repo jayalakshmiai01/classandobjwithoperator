@@ -4,7 +4,6 @@ win.title("operations")
 win.geometry("500x500+500+100")
 win.state("zoomed")
 
-
 def addition():
     a=int(producta.get())
     b=int(productb.get())
@@ -41,7 +40,8 @@ def modulas():
     c=a%b
     result1.config(text=c)
 
-producttiltle=Label(win,text="Arithmetic operations",fg="blue")
+
+producttiltle=Label(win,text="ARITHMETIC OPERATIONS",fg="blue")
 producttiltle.grid(row=0,column=20,padx=200,pady=30)
 
 message=Label(win,text="Enter a value 1:",fg="blue")
